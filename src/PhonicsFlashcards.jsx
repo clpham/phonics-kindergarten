@@ -14,7 +14,6 @@ const PhonicsFlashcards = () => {
   useEffect(() => {
     const fetchCards = async () => {
       try {
-        // Fetch all flashcards from the collection, sorted by category
         const records = await pb.collection('phonics_flashcards').getFullList({
           sort: 'category,vowel_text',
         });
@@ -35,30 +34,25 @@ const PhonicsFlashcards = () => {
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
       
-      // Split the phrase by the period to separate the sound and the word
       const sentences = phrase.split('.').map(s => s.trim()).filter(Boolean);
       
       if (sentences.length >= 2) {
         const soundUtterance = new SpeechSynthesisUtterance(sentences[0]);
         const wordUtterance = new SpeechSynthesisUtterance(sentences[1]);
         
-        // Apply the same voice settings to both parts
         [soundUtterance, wordUtterance].forEach(u => {
           u.rate = 0.85;
           u.pitch = 1.1;
         });
 
-        // Play the first sentence ("The sound is X")
         window.speechSynthesis.speak(soundUtterance);
         
-        // When the first sentence finishes playing, trigger a pause before the next
         soundUtterance.onend = () => {
           setTimeout(() => {
             window.speechSynthesis.speak(wordUtterance);
-          }, 500); // 500ms = 0.75 second pause. Adjust as needed.
+          }, 300); //in ms
         };
       } else {
-        // Fallback in case a card doesn't have a period
         const utterance = new SpeechSynthesisUtterance(phrase);
         utterance.rate = 0.85; 
         utterance.pitch = 1.1;
@@ -85,6 +79,8 @@ const PhonicsFlashcards = () => {
 
   return (
     <div style={styles.container}>
+      <h1 style={styles.header}>Flash Card</h1>
+      
       <div style={styles.card} onClick={() => playVoice(currentCard.tts_phrase)}>
         <h2 style={styles.vowel}>{currentCard.vowel_text}</h2>
         <p style={styles.word}>{currentCard.word}</p>
@@ -107,6 +103,12 @@ const styles = {
     alignItems: 'center',
     fontFamily: 'sans-serif',
     padding: '2rem',
+  },
+  header: {
+    fontSize: '3rem',
+    color: '#333333',
+    marginBottom: '2rem',
+    textAlign: 'center',
   },
   card: {
     backgroundColor: '#ffffff',
