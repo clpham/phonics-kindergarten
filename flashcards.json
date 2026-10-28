@@ -1,1232 +1,1226 @@
 [
   {
     "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "igh",
-    "word": "light",
-    "tts_phrase": "eye. light."
+    "tts_phrase": "uh. stood.",
+    "vowel_text": "oo",
+    "word": "stood"
   },
   {
     "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "igh",
-    "word": "high",
-    "tts_phrase": "eye. high."
+    "tts_phrase": "uh. wood.",
+    "vowel_text": "oo",
+    "word": "wood"
   },
   {
     "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "igh",
-    "word": "night",
-    "tts_phrase": "eye. night."
+    "tts_phrase": "uh. good.",
+    "vowel_text": "oo",
+    "word": "good"
   },
   {
     "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "igh",
-    "word": "sight",
-    "tts_phrase": "eye. sight."
+    "tts_phrase": "uh. foot.",
+    "vowel_text": "oo",
+    "word": "foot"
   },
   {
     "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "igh",
-    "word": "bright",
-    "tts_phrase": "eye. bright."
+    "tts_phrase": "uh. book.",
+    "vowel_text": "oo",
+    "word": "book"
   },
   {
     "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "igh",
-    "word": "flight",
-    "tts_phrase": "eye. flight."
+    "tts_phrase": "uh. look.",
+    "vowel_text": "oo",
+    "word": "look"
   },
   {
     "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "igh",
-    "word": "right",
-    "tts_phrase": "eye. right."
+    "tts_phrase": "ooh. room.",
+    "vowel_text": "oo",
+    "word": "room"
   },
   {
     "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "igh",
-    "word": "tight",
-    "tts_phrase": "eye. tight."
+    "tts_phrase": "ooh. pool.",
+    "vowel_text": "oo",
+    "word": "pool"
   },
   {
     "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "igh",
-    "word": "fight",
-    "tts_phrase": "eye. fight."
+    "tts_phrase": "ooh. food.",
+    "vowel_text": "oo",
+    "word": "food"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ooh. moon.",
+    "vowel_text": "oo",
+    "word": "moon"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ooh. hoo.",
+    "vowel_text": "oo",
+    "word": "hoo"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ooh. boo.",
+    "vowel_text": "oo",
+    "word": "boo"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ooh. zoo.",
+    "vowel_text": "oo",
+    "word": "zoo"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "aw. sauce.",
+    "vowel_text": "au",
+    "word": "sauce"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "aw. author.",
+    "vowel_text": "au",
+    "word": "author"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "aw. pause.",
+    "vowel_text": "au",
+    "word": "pause"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "aw. cause.",
+    "vowel_text": "au",
+    "word": "cause"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "aw. haul.",
+    "vowel_text": "au",
+    "word": "haul"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "aw. fault.",
+    "vowel_text": "au",
+    "word": "fault"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "aw. taught.",
+    "vowel_text": "au",
+    "word": "taught"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "aw. straw.",
+    "vowel_text": "aw",
+    "word": "straw"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "aw. claw.",
+    "vowel_text": "aw",
+    "word": "claw"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "aw. yawn.",
+    "vowel_text": "aw",
+    "word": "yawn"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "aw. draw.",
+    "vowel_text": "aw",
+    "word": "draw"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "aw. paw.",
+    "vowel_text": "aw",
+    "word": "paw"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "aw. saw.",
+    "vowel_text": "aw",
+    "word": "saw"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "aw. hawk.",
+    "vowel_text": "aw",
+    "word": "hawk"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "d. called.",
+    "vowel_text": "ed",
+    "word": "called"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "d. filled.",
+    "vowel_text": "ed",
+    "word": "filled"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "d. yelled.",
+    "vowel_text": "ed",
+    "word": "yelled"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "d. smiled.",
+    "vowel_text": "ed",
+    "word": "smiled"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "d. hugged.",
+    "vowel_text": "ed",
+    "word": "hugged"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "d. cried.",
+    "vowel_text": "ed",
+    "word": "cried"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "d. chewed.",
+    "vowel_text": "ed",
+    "word": "chewed"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "d. played.",
+    "vowel_text": "ed",
+    "word": "played"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "t. kissed.",
+    "vowel_text": "ed",
+    "word": "kissed"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "t. baked.",
+    "vowel_text": "ed",
+    "word": "baked"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "t. jumped.",
+    "vowel_text": "ed",
+    "word": "jumped"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "t. stopped.",
+    "vowel_text": "ed",
+    "word": "stopped"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "t. skipped.",
+    "vowel_text": "ed",
+    "word": "skipped"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "t. hopped.",
+    "vowel_text": "ed",
+    "word": "hopped"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "t. walked.",
+    "vowel_text": "ed",
+    "word": "walked"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "vowel_text": "ed",
+    "word": "planted"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "vowel_text": "ed",
+    "word": "painted"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "vowel_text": "ed",
+    "word": "melted"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "vowel_text": "ed",
+    "word": "lifted"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "vowel_text": "ed",
+    "word": "landed"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "vowel_text": "ed",
+    "word": "patted"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "us. joyous.",
+    "vowel_text": "ous",
+    "word": "joyous"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "us. enormous.",
+    "vowel_text": "ous",
+    "word": "enormous"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "us. jealous.",
+    "vowel_text": "ous",
+    "word": "jealous"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "us. gorgeous.",
+    "vowel_text": "ous",
+    "word": "gorgeous"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "us. famous.",
+    "vowel_text": "ous",
+    "word": "famous"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "us. nervous.",
+    "vowel_text": "ous",
+    "word": "nervous"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ay. tray.",
+    "vowel_text": "ay",
+    "word": "tray"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ay. stay.",
+    "vowel_text": "ay",
+    "word": "stay"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ay. way.",
+    "vowel_text": "ay",
+    "word": "way"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ay. say.",
+    "vowel_text": "ay",
+    "word": "say"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ay. day.",
+    "vowel_text": "ay",
+    "word": "day"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ay. play.",
+    "vowel_text": "ay",
+    "word": "play"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ay. May.",
+    "vowel_text": "ay",
+    "word": "May"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ow. mouse.",
+    "vowel_text": "ou",
+    "word": "mouse"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ow. house.",
+    "vowel_text": "ou",
+    "word": "house"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ow. round.",
+    "vowel_text": "ou",
+    "word": "round"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ow. proud.",
+    "vowel_text": "ou",
+    "word": "proud"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ow. cloud.",
+    "vowel_text": "ou",
+    "word": "cloud"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ow. out.",
+    "vowel_text": "ou",
+    "word": "out"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ow. loud.",
+    "vowel_text": "ou",
+    "word": "loud"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ow. shout.",
+    "vowel_text": "ou",
+    "word": "shout"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ow. crown.",
+    "vowel_text": "ow",
+    "word": "crown"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ow. clown.",
+    "vowel_text": "ow",
+    "word": "clown"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ow. down.",
+    "vowel_text": "ow",
+    "word": "down"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ow. town.",
+    "vowel_text": "ow",
+    "word": "town"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ow. brown.",
+    "vowel_text": "ow",
+    "word": "brown"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ow. how.",
+    "vowel_text": "ow",
+    "word": "how"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ow. now.",
+    "vowel_text": "ow",
+    "word": "now"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ow. cow.",
+    "vowel_text": "ow",
+    "word": "cow"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "oh. show.",
+    "vowel_text": "ow",
+    "word": "show"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "oh. grow.",
+    "vowel_text": "ow",
+    "word": "grow"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "oh. snow.",
+    "vowel_text": "ow",
+    "word": "snow"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "oh. low.",
+    "vowel_text": "ow",
+    "word": "low"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "oh. slow.",
+    "vowel_text": "ow",
+    "word": "slow"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "oh. blow.",
+    "vowel_text": "ow",
+    "word": "blow"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "ing",
-    "word": "spring",
-    "tts_phrase": "ing. spring."
+    "tts_phrase": "awl. stall.",
+    "vowel_text": "all",
+    "word": "stall"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "ing",
-    "word": "king",
-    "tts_phrase": "ing. king."
+    "tts_phrase": "awl. hall.",
+    "vowel_text": "all",
+    "word": "hall"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "ing",
-    "word": "ring",
-    "tts_phrase": "ing. ring."
+    "tts_phrase": "awl. small.",
+    "vowel_text": "all",
+    "word": "small"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "ing",
-    "word": "whing-ding",
-    "tts_phrase": "ing. whing-ding."
+    "tts_phrase": "awl. call.",
+    "vowel_text": "all",
+    "word": "call"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "ing",
-    "word": "sing",
-    "tts_phrase": "ing. sing."
+    "tts_phrase": "awl. fall.",
+    "vowel_text": "all",
+    "word": "fall"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "ing",
-    "word": "wing",
-    "tts_phrase": "ing. wing."
+    "tts_phrase": "awl. mall.",
+    "vowel_text": "all",
+    "word": "mall"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "ing",
-    "word": "bring",
-    "tts_phrase": "ing. bring."
+    "tts_phrase": "awl. ball.",
+    "vowel_text": "all",
+    "word": "ball"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "ind",
-    "word": "kind",
-    "tts_phrase": "eyend. kind."
+    "tts_phrase": "awl. wall.",
+    "vowel_text": "all",
+    "word": "wall"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "ind",
-    "word": "find",
-    "tts_phrase": "eyend. find."
+    "tts_phrase": "awl. tall.",
+    "vowel_text": "all",
+    "word": "tall"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ay. weigh.",
+    "vowel_text": "eigh",
+    "word": "weigh"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ay. neigh.",
+    "vowel_text": "eigh",
+    "word": "neigh"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ay. sleigh.",
+    "vowel_text": "eigh",
+    "word": "sleigh"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ay. eight.",
+    "vowel_text": "eigh",
+    "word": "eight"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ay. weight.",
+    "vowel_text": "eigh",
+    "word": "weight"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ay. freight.",
+    "vowel_text": "eigh",
+    "word": "freight"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "shun. nation.",
+    "vowel_text": "tion",
+    "word": "nation"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "shun. station.",
+    "vowel_text": "tion",
+    "word": "station"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "shun. action.",
+    "vowel_text": "tion",
+    "word": "action"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "shun. direction.",
+    "vowel_text": "tion",
+    "word": "direction"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "shun. auction.",
+    "vowel_text": "tion",
+    "word": "auction"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "shun. fiction.",
+    "vowel_text": "tion",
+    "word": "fiction"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "shun. mansion.",
+    "vowel_text": "sion",
+    "word": "mansion"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "zhun. vision.",
+    "vowel_text": "sion",
+    "word": "vision"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "zhun. decision.",
+    "vowel_text": "sion",
+    "word": "decision"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "shun. tension.",
+    "vowel_text": "sion",
+    "word": "tension"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "shun. mission.",
+    "vowel_text": "sion",
+    "word": "mission"
+  },
+  {
+    "category": "Suffixes & Endings",
+    "tts_phrase": "shun. passion.",
+    "vowel_text": "sion",
+    "word": "passion"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ooh. stew.",
+    "vowel_text": "ew",
+    "word": "stew"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ooh. grew.",
+    "vowel_text": "ew",
+    "word": "grew"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ooh. blew.",
+    "vowel_text": "ew",
+    "word": "blew"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ooh. chew.",
+    "vowel_text": "ew",
+    "word": "chew"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "ooh. new.",
+    "vowel_text": "ew",
+    "word": "new"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "yoo. mew.",
+    "vowel_text": "ew",
+    "word": "mew"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "yoo. few.",
+    "vowel_text": "ew",
+    "word": "few"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "er. burn.",
+    "vowel_text": "ur",
+    "word": "burn"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "er. hurt.",
+    "vowel_text": "ur",
+    "word": "hurt"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "er. turn.",
+    "vowel_text": "ur",
+    "word": "turn"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "er. nurse.",
+    "vowel_text": "ur",
+    "word": "nurse"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "er. turkey.",
+    "vowel_text": "ur",
+    "word": "turkey"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "er. purple.",
+    "vowel_text": "ur",
+    "word": "purple"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "er. shirt.",
+    "vowel_text": "ir",
+    "word": "shirt"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "er. third.",
+    "vowel_text": "ir",
+    "word": "third"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "er. dirt.",
+    "vowel_text": "ir",
+    "word": "dirt"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "er. first.",
+    "vowel_text": "ir",
+    "word": "first"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "er. girl.",
+    "vowel_text": "ir",
+    "word": "girl"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "er. bird.",
+    "vowel_text": "ir",
+    "word": "bird"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "er. whisper.",
+    "vowel_text": "er",
+    "word": "whisper"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "er. term.",
+    "vowel_text": "er",
+    "word": "term"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "er. fern.",
+    "vowel_text": "er",
+    "word": "fern"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "er. her.",
+    "vowel_text": "er",
+    "word": "her"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "er. clerk.",
+    "vowel_text": "er",
+    "word": "clerk"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "er. jerk.",
+    "vowel_text": "er",
+    "word": "jerk"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "ind",
-    "word": "mind",
-    "tts_phrase": "eyend. mind."
+    "tts_phrase": "ohld. scold.",
+    "vowel_text": "old",
+    "word": "scold"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "ind",
-    "word": "behind",
-    "tts_phrase": "eyend. behind."
+    "tts_phrase": "ohld. told.",
+    "vowel_text": "old",
+    "word": "told"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "ind",
-    "word": "blind",
-    "tts_phrase": "eyend. blind."
+    "tts_phrase": "ohld. fold.",
+    "vowel_text": "old",
+    "word": "fold"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "ind",
-    "word": "grind",
-    "tts_phrase": "eyend. grind."
+    "tts_phrase": "ohld. hold.",
+    "vowel_text": "old",
+    "word": "hold"
   },
   {
     "category": "Glued Sounds",
+    "tts_phrase": "ohld. sold.",
+    "vowel_text": "old",
+    "word": "sold"
+  },
+  {
+    "category": "Glued Sounds",
+    "tts_phrase": "ohld. gold.",
+    "vowel_text": "old",
+    "word": "gold"
+  },
+  {
+    "category": "Glued Sounds",
+    "tts_phrase": "ohld. cold.",
+    "vowel_text": "old",
+    "word": "cold"
+  },
+  {
+    "category": "Glued Sounds",
+    "tts_phrase": "ohst. host.",
+    "vowel_text": "ost",
+    "word": "host"
+  },
+  {
+    "category": "Glued Sounds",
+    "tts_phrase": "ohst. ghost.",
+    "vowel_text": "ost",
+    "word": "ghost"
+  },
+  {
+    "category": "Glued Sounds",
+    "tts_phrase": "ohst. almost.",
+    "vowel_text": "ost",
+    "word": "almost"
+  },
+  {
+    "category": "Glued Sounds",
+    "tts_phrase": "ohst. post.",
+    "vowel_text": "ost",
+    "word": "post"
+  },
+  {
+    "category": "Glued Sounds",
+    "tts_phrase": "ohst. most.",
+    "vowel_text": "ost",
+    "word": "most"
+  },
+  {
+    "category": "Glued Sounds",
+    "tts_phrase": "alk. stalk.",
+    "vowel_text": "alk",
+    "word": "stalk"
+  },
+  {
+    "category": "Glued Sounds",
+    "tts_phrase": "alk. talk.",
+    "vowel_text": "alk",
+    "word": "talk"
+  },
+  {
+    "category": "Glued Sounds",
+    "tts_phrase": "alk. walk.",
+    "vowel_text": "alk",
+    "word": "walk"
+  },
+  {
+    "category": "Glued Sounds",
+    "tts_phrase": "alk. chalk.",
+    "vowel_text": "alk",
+    "word": "chalk"
+  },
+  {
+    "category": "Glued Sounds",
+    "tts_phrase": "awlt. salt.",
+    "vowel_text": "alt",
+    "word": "salt"
+  },
+  {
+    "category": "Glued Sounds",
+    "tts_phrase": "awlt. malt.",
+    "vowel_text": "alt",
+    "word": "malt"
+  },
+  {
+    "category": "Glued Sounds",
+    "tts_phrase": "awlt. waltz.",
+    "vowel_text": "alt",
+    "word": "waltz"
+  },
+  {
+    "category": "Glued Sounds",
+    "tts_phrase": "awlt. halt.",
+    "vowel_text": "alt",
+    "word": "halt"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "oy. ploy.",
+    "vowel_text": "oy",
+    "word": "ploy"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "oy. soy.",
+    "vowel_text": "oy",
+    "word": "soy"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "oy. enjoy.",
+    "vowel_text": "oy",
+    "word": "enjoy"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "oy. joy.",
+    "vowel_text": "oy",
+    "word": "joy"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "oy. toy.",
+    "vowel_text": "oy",
+    "word": "toy"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "oy. boy.",
+    "vowel_text": "oy",
+    "word": "boy"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "oy. point.",
+    "vowel_text": "oi",
+    "word": "point"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "oy. join.",
+    "vowel_text": "oi",
+    "word": "join"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "oy. coin.",
+    "vowel_text": "oi",
+    "word": "coin"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "oy. boil.",
+    "vowel_text": "oi",
+    "word": "boil"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "oy. oil.",
+    "vowel_text": "oi",
+    "word": "oil"
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "tts_phrase": "oy. moist.",
+    "vowel_text": "oi",
+    "word": "moist"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "or. storm.",
+    "vowel_text": "or",
+    "word": "storm"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "or. fork.",
+    "vowel_text": "or",
+    "word": "fork"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "or. horn.",
+    "vowel_text": "or",
+    "word": "horn"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "or. corn.",
+    "vowel_text": "or",
+    "word": "corn"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "or. for.",
+    "vowel_text": "or",
+    "word": "for"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "or. born.",
+    "vowel_text": "or",
+    "word": "born"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "ar. yard.",
+    "vowel_text": "ar",
+    "word": "yard"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "ar. farm.",
+    "vowel_text": "ar",
+    "word": "farm"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "ar. dark.",
+    "vowel_text": "ar",
+    "word": "dark"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "ar. park.",
+    "vowel_text": "ar",
+    "word": "park"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "ar. star.",
+    "vowel_text": "ar",
+    "word": "star"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "ar. far.",
+    "vowel_text": "ar",
+    "word": "far"
+  },
+  {
+    "category": "R-Controlled Vowels",
+    "tts_phrase": "ar. car.",
+    "vowel_text": "ar",
+    "word": "car"
+  },
+  {
+    "category": "Glued Sounds",
+    "tts_phrase": "ild. child.",
     "vowel_text": "ild",
-    "word": "mild",
-    "tts_phrase": "eye-ld. mild."
+    "word": "child"
   },
   {
     "category": "Glued Sounds",
+    "tts_phrase": "ild. wild.",
     "vowel_text": "ild",
-    "word": "wild",
-    "tts_phrase": "eye-ld. wild."
+    "word": "wild"
   },
   {
     "category": "Glued Sounds",
+    "tts_phrase": "ild. mild.",
     "vowel_text": "ild",
-    "word": "child",
-    "tts_phrase": "eye-ld. child."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "ar",
-    "word": "car",
-    "tts_phrase": "ar. car."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "ar",
-    "word": "far",
-    "tts_phrase": "ar. far."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "ar",
-    "word": "star",
-    "tts_phrase": "ar. star."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "ar",
-    "word": "park",
-    "tts_phrase": "ar. park."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "ar",
-    "word": "dark",
-    "tts_phrase": "ar. dark."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "ar",
-    "word": "farm",
-    "tts_phrase": "ar. farm."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "ar",
-    "word": "yard",
-    "tts_phrase": "ar. yard."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "or",
-    "word": "born",
-    "tts_phrase": "or. born."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "or",
-    "word": "for",
-    "tts_phrase": "or. for."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "or",
-    "word": "corn",
-    "tts_phrase": "or. corn."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "or",
-    "word": "horn",
-    "tts_phrase": "or. horn."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "or",
-    "word": "fork",
-    "tts_phrase": "or. fork."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "or",
-    "word": "storm",
-    "tts_phrase": "or. storm."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oi",
-    "word": "moist",
-    "tts_phrase": "oy. moist."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oi",
-    "word": "oil",
-    "tts_phrase": "oy. oil."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oi",
-    "word": "boil",
-    "tts_phrase": "oy. boil."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oi",
-    "word": "coin",
-    "tts_phrase": "oy. coin."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oi",
-    "word": "join",
-    "tts_phrase": "oy. join."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oi",
-    "word": "point",
-    "tts_phrase": "oy. point."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oy",
-    "word": "boy",
-    "tts_phrase": "oy. boy."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oy",
-    "word": "toy",
-    "tts_phrase": "oy. toy."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oy",
-    "word": "joy",
-    "tts_phrase": "oy. joy."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oy",
-    "word": "enjoy",
-    "tts_phrase": "oy. enjoy."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oy",
-    "word": "soy",
-    "tts_phrase": "oy. soy."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oy",
-    "word": "ploy",
-    "tts_phrase": "oy. ploy."
+    "word": "mild"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "alt",
-    "word": "halt",
-    "tts_phrase": "awlt. halt."
+    "tts_phrase": "eyend. grind.",
+    "vowel_text": "ind",
+    "word": "grind"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "alt",
-    "word": "waltz",
-    "tts_phrase": "awlt. waltz."
+    "tts_phrase": "eyend. blind.",
+    "vowel_text": "ind",
+    "word": "blind"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "alt",
-    "word": "malt",
-    "tts_phrase": "awlt. malt."
+    "tts_phrase": "eyend. behind.",
+    "vowel_text": "ind",
+    "word": "behind"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "alt",
-    "word": "salt",
-    "tts_phrase": "awlt. salt."
+    "tts_phrase": "eyend. mind.",
+    "vowel_text": "ind",
+    "word": "mind"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "alk",
-    "word": "chalk",
-    "tts_phrase": "awk. chalk."
+    "tts_phrase": "eyend. find.",
+    "vowel_text": "ind",
+    "word": "find"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "alk",
-    "word": "walk",
-    "tts_phrase": "awk. walk."
+    "tts_phrase": "eyend. kind.",
+    "vowel_text": "ind",
+    "word": "kind"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "alk",
-    "word": "talk",
-    "tts_phrase": "awk. talk."
+    "tts_phrase": "ing. bring.",
+    "vowel_text": "ing",
+    "word": "bring"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "alk",
-    "word": "stalk",
-    "tts_phrase": "awk. stalk."
+    "tts_phrase": "ing. wing.",
+    "vowel_text": "ing",
+    "word": "wing"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "ost",
-    "word": "most",
-    "tts_phrase": "ohst. most."
+    "tts_phrase": "ing. sing.",
+    "vowel_text": "ing",
+    "word": "sing"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "ost",
-    "word": "post",
-    "tts_phrase": "ohst. post."
+    "tts_phrase": "ing. whing-ding.",
+    "vowel_text": "ing",
+    "word": "whing-ding"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "ost",
-    "word": "almost",
-    "tts_phrase": "ohst. almost."
+    "tts_phrase": "ing. ring.",
+    "vowel_text": "ing",
+    "word": "ring"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "ost",
-    "word": "ghost",
-    "tts_phrase": "ohst. ghost."
+    "tts_phrase": "ing. king.",
+    "vowel_text": "ing",
+    "word": "king"
   },
   {
     "category": "Glued Sounds",
-    "vowel_text": "ost",
-    "word": "host",
-    "tts_phrase": "ohst. host."
+    "tts_phrase": "ing. spring.",
+    "vowel_text": "ing",
+    "word": "spring"
   },
   {
-    "category": "Glued Sounds",
-    "vowel_text": "old",
-    "word": "cold",
-    "tts_phrase": "ohld. cold."
-  },
-  {
-    "category": "Glued Sounds",
-    "vowel_text": "old",
-    "word": "gold",
-    "tts_phrase": "ohld. gold."
-  },
-  {
-    "category": "Glued Sounds",
-    "vowel_text": "old",
-    "word": "sold",
-    "tts_phrase": "ohld. sold."
-  },
-  {
-    "category": "Glued Sounds",
-    "vowel_text": "old",
-    "word": "hold",
-    "tts_phrase": "ohld. hold."
-  },
-  {
-    "category": "Glued Sounds",
-    "vowel_text": "old",
-    "word": "fold",
-    "tts_phrase": "ohld. fold."
-  },
-  {
-    "category": "Glued Sounds",
-    "vowel_text": "old",
-    "word": "told",
-    "tts_phrase": "ohld. told."
-  },
-  {
-    "category": "Glued Sounds",
-    "vowel_text": "old",
-    "word": "scold",
-    "tts_phrase": "ohld. scold."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "er",
-    "word": "jerk",
-    "tts_phrase": "er. jerk."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "er",
-    "word": "clerk",
-    "tts_phrase": "er. clerk."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "er",
-    "word": "her",
-    "tts_phrase": "er. her."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "er",
-    "word": "fern",
-    "tts_phrase": "er. fern."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "er",
-    "word": "term",
-    "tts_phrase": "er. term."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "er",
-    "word": "whisper",
-    "tts_phrase": "er. whisper."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "ir",
-    "word": "bird",
-    "tts_phrase": "er. bird."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "ir",
-    "word": "girl",
-    "tts_phrase": "er. girl."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "ir",
-    "word": "first",
-    "tts_phrase": "er. first."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "ir",
-    "word": "dirt",
-    "tts_phrase": "er. dirt."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "ir",
-    "word": "third",
-    "tts_phrase": "er. third."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "ir",
-    "word": "shirt",
-    "tts_phrase": "er. shirt."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "ur",
-    "word": "purple",
-    "tts_phrase": "er. purple."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "ur",
-    "word": "turkey",
-    "tts_phrase": "er. turkey."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "ur",
-    "word": "nurse",
-    "tts_phrase": "er. nurse."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "ur",
-    "word": "turn",
-    "tts_phrase": "er. turn."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "ur",
-    "word": "hurt",
-    "tts_phrase": "er. hurt."
-  },
-  {
-    "category": "R-Controlled Vowels",
-    "vowel_text": "ur",
-    "word": "burn",
-    "tts_phrase": "er. burn."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ew",
-    "word": "few",
-    "tts_phrase": "yoo. few."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ew",
-    "word": "mew",
-    "tts_phrase": "yoo. mew."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ew",
-    "word": "new",
-    "tts_phrase": "ooh. new."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ew",
-    "word": "chew",
-    "tts_phrase": "ooh. chew."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ew",
-    "word": "blew",
-    "tts_phrase": "ooh. blew."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ew",
-    "word": "grew",
-    "tts_phrase": "ooh. grew."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ew",
-    "word": "stew",
-    "tts_phrase": "ooh. stew."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "sion",
-    "word": "passion",
-    "tts_phrase": "shun. passion."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "sion",
-    "word": "mission",
-    "tts_phrase": "shun. mission."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "sion",
-    "word": "tension",
-    "tts_phrase": "shun. tension."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "sion",
-    "word": "decision",
-    "tts_phrase": "zhun. decision."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "sion",
-    "word": "vision",
-    "tts_phrase": "zhun. vision."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "sion",
-    "word": "mansion",
-    "tts_phrase": "shun. mansion."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "tion",
-    "word": "fiction",
-    "tts_phrase": "shun. fiction."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "tion",
-    "word": "auction",
-    "tts_phrase": "shun. auction."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "tion",
-    "word": "direction",
-    "tts_phrase": "shun. direction."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "tion",
-    "word": "action",
-    "tts_phrase": "shun. action."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "tion",
-    "word": "station",
-    "tts_phrase": "shun. station."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "tion",
-    "word": "nation",
-    "tts_phrase": "shun. nation."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "eigh",
-    "word": "freight",
-    "tts_phrase": "ay. freight."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "eigh",
-    "word": "weight",
-    "tts_phrase": "ay. weight."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "eigh",
-    "word": "eight",
-    "tts_phrase": "ay. eight."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "eigh",
-    "word": "sleigh",
-    "tts_phrase": "ay. sleigh."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "eigh",
-    "word": "neigh",
-    "tts_phrase": "ay. neigh."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "eigh",
-    "word": "weigh",
-    "tts_phrase": "ay. weigh."
-  },
-  {
-    "category": "Glued Sounds",
-    "vowel_text": "all",
-    "word": "tall",
-    "tts_phrase": "awl. tall."
-  },
-  {
-    "category": "Glued Sounds",
-    "vowel_text": "all",
-    "word": "wall",
-    "tts_phrase": "awl. wall."
-  },
-  {
-    "category": "Glued Sounds",
-    "vowel_text": "all",
-    "word": "ball",
-    "tts_phrase": "awl. ball."
-  },
-  {
-    "category": "Glued Sounds",
-    "vowel_text": "all",
-    "word": "mall",
-    "tts_phrase": "awl. mall."
-  },
-  {
-    "category": "Glued Sounds",
-    "vowel_text": "all",
-    "word": "fall",
-    "tts_phrase": "awl. fall."
-  },
-  {
-    "category": "Glued Sounds",
-    "vowel_text": "all",
-    "word": "call",
-    "tts_phrase": "awl. call."
-  },
-  {
-    "category": "Glued Sounds",
-    "vowel_text": "all",
-    "word": "small",
-    "tts_phrase": "awl. small."
-  },
-  {
-    "category": "Glued Sounds",
-    "vowel_text": "all",
-    "word": "hall",
-    "tts_phrase": "awl. hall."
-  },
-  {
-    "category": "Glued Sounds",
-    "vowel_text": "all",
-    "word": "stall",
-    "tts_phrase": "awl. stall."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ow",
-    "word": "blow",
-    "tts_phrase": "oh. blow."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ow",
-    "word": "slow",
-    "tts_phrase": "oh. slow."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ow",
-    "word": "low",
-    "tts_phrase": "oh. low."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ow",
-    "word": "snow",
-    "tts_phrase": "oh. snow."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ow",
-    "word": "grow",
-    "tts_phrase": "oh. grow."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ow",
-    "word": "show",
-    "tts_phrase": "oh. show."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ow",
-    "word": "cow",
-    "tts_phrase": "ow. cow."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ow",
-    "word": "now",
-    "tts_phrase": "ow. now."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ow",
-    "word": "how",
-    "tts_phrase": "ow. how."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ow",
-    "word": "brown",
-    "tts_phrase": "ow. brown."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ow",
-    "word": "town",
-    "tts_phrase": "ow. town."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ow",
-    "word": "down",
-    "tts_phrase": "ow. down."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ow",
-    "word": "clown",
-    "tts_phrase": "ow. clown."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ow",
-    "word": "crown",
-    "tts_phrase": "ow. crown."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ou",
-    "word": "shout",
-    "tts_phrase": "ow. shout."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ou",
-    "word": "loud",
-    "tts_phrase": "ow. loud."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ou",
-    "word": "out",
-    "tts_phrase": "ow. out."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ou",
-    "word": "cloud",
-    "tts_phrase": "ow. cloud."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ou",
-    "word": "proud",
-    "tts_phrase": "ow. proud."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ou",
-    "word": "round",
-    "tts_phrase": "ow. round."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ou",
-    "word": "house",
-    "tts_phrase": "ow. house."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ou",
-    "word": "mouse",
-    "tts_phrase": "ow. mouse."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ay",
-    "word": "May",
-    "tts_phrase": "ay. May."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ay",
-    "word": "play",
-    "tts_phrase": "ay. play."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ay",
-    "word": "day",
-    "tts_phrase": "ay. day."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ay",
-    "word": "say",
-    "tts_phrase": "ay. say."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ay",
-    "word": "way",
-    "tts_phrase": "ay. way."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ay",
-    "word": "stay",
-    "tts_phrase": "ay. stay."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "ay",
-    "word": "tray",
-    "tts_phrase": "ay. tray."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ous",
-    "word": "nervous",
-    "tts_phrase": "us. nervous."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ous",
-    "word": "famous",
-    "tts_phrase": "us. famous."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ous",
-    "word": "gorgeous",
-    "tts_phrase": "us. gorgeous."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ous",
-    "word": "jealous",
-    "tts_phrase": "us. jealous."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ous",
-    "word": "enormous",
-    "tts_phrase": "us. enormous."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ous",
-    "word": "joyous",
-    "tts_phrase": "us. joyous."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "patted",
-    "tts_phrase": "id. patted."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "landed",
-    "tts_phrase": "id. landed."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "lifted",
-    "tts_phrase": "id. lifted."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "melted",
-    "tts_phrase": "id. melted."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "painted",
-    "tts_phrase": "id. painted."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "planted",
-    "tts_phrase": "id. planted."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "walked",
-    "tts_phrase": "t. walked."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "hopped",
-    "tts_phrase": "t. hopped."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "skipped",
-    "tts_phrase": "t. skipped."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "stopped",
-    "tts_phrase": "t. stopped."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "jumped",
-    "tts_phrase": "t. jumped."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "baked",
-    "tts_phrase": "t. baked."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "kissed",
-    "tts_phrase": "t. kissed."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "played",
-    "tts_phrase": "d. played."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "chewed",
-    "tts_phrase": "d. chewed."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "cried",
-    "tts_phrase": "d. cried."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "hugged",
-    "tts_phrase": "d. hugged."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "smiled",
-    "tts_phrase": "d. smiled."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "yelled",
-    "tts_phrase": "d. yelled."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "filled",
-    "tts_phrase": "d. filled."
-  },
-  {
-    "category": "Suffixes & Endings",
-    "vowel_text": "ed",
-    "word": "called",
-    "tts_phrase": "d. called."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "aw",
-    "word": "hawk",
-    "tts_phrase": "aw. hawk."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "aw",
-    "word": "saw",
-    "tts_phrase": "aw. saw."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "aw",
-    "word": "paw",
-    "tts_phrase": "aw. paw."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "aw",
-    "word": "draw",
-    "tts_phrase": "aw. draw."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "aw",
-    "word": "yawn",
-    "tts_phrase": "aw. yawn."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "aw",
-    "word": "claw",
-    "tts_phrase": "aw. claw."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "aw",
-    "word": "straw",
-    "tts_phrase": "aw. straw."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "au",
-    "word": "taught",
-    "tts_phrase": "aw. taught."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "au",
-    "word": "fault",
-    "tts_phrase": "aw. fault."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "au",
-    "word": "haul",
-    "tts_phrase": "aw. haul."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "au",
-    "word": "cause",
-    "tts_phrase": "aw. cause."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "au",
-    "word": "pause",
-    "tts_phrase": "aw. pause."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "au",
-    "word": "author",
-    "tts_phrase": "aw. author."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "au",
-    "word": "sauce",
-    "tts_phrase": "aw. sauce."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oo",
-    "word": "zoo",
-    "tts_phrase": "ooh. zoo."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oo",
-    "word": "boo",
-    "tts_phrase": "ooh. boo."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oo",
-    "word": "hoo",
-    "tts_phrase": "ooh. hoo."
-  },
-  {
-    "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oo",
-    "word": "moon",
-    "tts_phrase": "ooh. moon."
-  },
-  {
     "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oo",
-    "word": "food",
-    "tts_phrase": "ooh. food."
+    "tts_phrase": "eye. fight.",
+    "vowel_text": "igh",
+    "word": "fight"
   },
   {
     "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oo",
-    "word": "pool",
-    "tts_phrase": "ooh. pool."
+    "tts_phrase": "eye. tight.",
+    "vowel_text": "igh",
+    "word": "tight"
   },
   {
     "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oo",
-    "word": "room",
-    "tts_phrase": "ooh. room."
+    "tts_phrase": "eye. right.",
+    "vowel_text": "igh",
+    "word": "right"
   },
   {
     "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oo",
-    "word": "look",
-    "tts_phrase": "uh. look."
+    "tts_phrase": "eye. flight.",
+    "vowel_text": "igh",
+    "word": "flight"
   },
   {
     "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oo",
-    "word": "book",
-    "tts_phrase": "uh. book."
+    "tts_phrase": "eye. bright.",
+    "vowel_text": "igh",
+    "word": "bright"
   },
   {
     "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oo",
-    "word": "foot",
-    "tts_phrase": "uh. foot."
+    "tts_phrase": "eye. sight.",
+    "vowel_text": "igh",
+    "word": "sight"
   },
   {
     "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oo",
-    "word": "good",
-    "tts_phrase": "uh. good."
+    "tts_phrase": "eye. night.",
+    "vowel_text": "igh",
+    "word": "night"
   },
   {
     "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oo",
-    "word": "wood",
-    "tts_phrase": "uh. wood."
+    "tts_phrase": "eye. high.",
+    "vowel_text": "igh",
+    "word": "high"
   },
   {
     "category": "Vowel Teams & Diphthongs",
-    "vowel_text": "oo",
-    "word": "stood",
-    "tts_phrase": "uh. stood."
+    "tts_phrase": "eye. light.",
+    "vowel_text": "igh",
+    "word": "light"
   }
 ]
