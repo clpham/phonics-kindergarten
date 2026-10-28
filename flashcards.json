@@ -35,7 +35,24 @@
     "word": "flight",
     "tts_phrase": "eye. flight."
   },
-
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "vowel_text": "igh",
+    "word": "right",
+    "tts_phrase": "eye. right."
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "vowel_text": "igh",
+    "word": "tight",
+    "tts_phrase": "eye. tight."
+  },
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "vowel_text": "igh",
+    "word": "fight",
+    "tts_phrase": "eye. fight."
+  },
   {
     "category": "Glued Sounds",
     "vowel_text": "ing",
@@ -72,7 +89,12 @@
     "word": "wing",
     "tts_phrase": "ing. wing."
   },
-
+  {
+    "category": "Glued Sounds",
+    "vowel_text": "ing",
+    "word": "bring",
+    "tts_phrase": "ing. bring."
+  },
   {
     "category": "Glued Sounds",
     "vowel_text": "ind",
@@ -109,7 +131,6 @@
     "word": "grind",
     "tts_phrase": "eyend. grind."
   },
-
   {
     "category": "Glued Sounds",
     "vowel_text": "ild",
@@ -128,7 +149,6 @@
     "word": "child",
     "tts_phrase": "eye-ld. child."
   },
-
   {
     "category": "R-Controlled Vowels",
     "vowel_text": "ar",
@@ -165,7 +185,12 @@
     "word": "farm",
     "tts_phrase": "ar. farm."
   },
-
+  {
+    "category": "R-Controlled Vowels",
+    "vowel_text": "ar",
+    "word": "yard",
+    "tts_phrase": "ar. yard."
+  },
   {
     "category": "R-Controlled Vowels",
     "vowel_text": "or",
@@ -202,7 +227,6 @@
     "word": "storm",
     "tts_phrase": "or. storm."
   },
-
   {
     "category": "Vowel Teams & Diphthongs",
     "vowel_text": "oi",
@@ -239,7 +263,6 @@
     "word": "point",
     "tts_phrase": "oy. point."
   },
-
   {
     "category": "Vowel Teams & Diphthongs",
     "vowel_text": "oy",
@@ -270,7 +293,12 @@
     "word": "soy",
     "tts_phrase": "oy. soy."
   },
-
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "vowel_text": "oy",
+    "word": "ploy",
+    "tts_phrase": "oy. ploy."
+  },
   {
     "category": "Glued Sounds",
     "vowel_text": "alt",
@@ -295,7 +323,6 @@
     "word": "salt",
     "tts_phrase": "awlt. salt."
   },
-
   {
     "category": "Glued Sounds",
     "vowel_text": "alk",
@@ -320,7 +347,6 @@
     "word": "stalk",
     "tts_phrase": "awk. stalk."
   },
-
   {
     "category": "Glued Sounds",
     "vowel_text": "ost",
@@ -351,7 +377,6 @@
     "word": "host",
     "tts_phrase": "ohst. host."
   },
-
   {
     "category": "Glued Sounds",
     "vowel_text": "old",
@@ -388,7 +413,12 @@
     "word": "told",
     "tts_phrase": "ohld. told."
   },
-
+  {
+    "category": "Glued Sounds",
+    "vowel_text": "old",
+    "word": "scold",
+    "tts_phrase": "ohld. scold."
+  },
   {
     "category": "R-Controlled Vowels",
     "vowel_text": "er",
@@ -425,7 +455,6 @@
     "word": "whisper",
     "tts_phrase": "er. whisper."
   },
-
   {
     "category": "R-Controlled Vowels",
     "vowel_text": "ir",
@@ -462,7 +491,6 @@
     "word": "shirt",
     "tts_phrase": "er. shirt."
   },
-
   {
     "category": "R-Controlled Vowels",
     "vowel_text": "ur",
@@ -499,7 +527,6 @@
     "word": "burn",
     "tts_phrase": "er. burn."
   },
-
   {
     "category": "Vowel Teams & Diphthongs",
     "vowel_text": "ew",
@@ -536,7 +563,12 @@
     "word": "grew",
     "tts_phrase": "ooh. grew."
   },
-
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "vowel_text": "ew",
+    "word": "stew",
+    "tts_phrase": "ooh. stew."
+  },
   {
     "category": "Suffixes & Endings",
     "vowel_text": "sion",
@@ -567,7 +599,12 @@
     "word": "vision",
     "tts_phrase": "zhun. vision."
   },
-
+  {
+    "category": "Suffixes & Endings",
+    "vowel_text": "sion",
+    "word": "mansion",
+    "tts_phrase": "shun. mansion."
+  },
   {
     "category": "Suffixes & Endings",
     "vowel_text": "tion",
@@ -604,7 +641,6 @@
     "word": "nation",
     "tts_phrase": "shun. nation."
   },
-
   {
     "category": "Vowel Teams & Diphthongs",
     "vowel_text": "eigh",
@@ -635,7 +671,12 @@
     "word": "neigh",
     "tts_phrase": "ay. neigh."
   },
-
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "vowel_text": "eigh",
+    "word": "weigh",
+    "tts_phrase": "ay. weigh."
+  },
   {
     "category": "Glued Sounds",
     "vowel_text": "all",
@@ -678,7 +719,18 @@
     "word": "small",
     "tts_phrase": "awl. small."
   },
-
+  {
+    "category": "Glued Sounds",
+    "vowel_text": "all",
+    "word": "hall",
+    "tts_phrase": "awl. hall."
+  },
+  {
+    "category": "Glued Sounds",
+    "vowel_text": "all",
+    "word": "stall",
+    "tts_phrase": "awl. stall."
+  },
   {
     "category": "Vowel Teams & Diphthongs",
     "vowel_text": "ow",
@@ -715,7 +767,6 @@
     "word": "show",
     "tts_phrase": "oh. show."
   },
-
   {
     "category": "Vowel Teams & Diphthongs",
     "vowel_text": "ow",
@@ -758,7 +809,12 @@
     "word": "clown",
     "tts_phrase": "ow. clown."
   },
-
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "vowel_text": "ow",
+    "word": "crown",
+    "tts_phrase": "ow. crown."
+  },
   {
     "category": "Vowel Teams & Diphthongs",
     "vowel_text": "ou",
@@ -801,7 +857,12 @@
     "word": "house",
     "tts_phrase": "ow. house."
   },
-
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "vowel_text": "ou",
+    "word": "mouse",
+    "tts_phrase": "ow. mouse."
+  },
   {
     "category": "Vowel Teams & Diphthongs",
     "vowel_text": "ay",
@@ -838,7 +899,12 @@
     "word": "stay",
     "tts_phrase": "ay. stay."
   },
-
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "vowel_text": "ay",
+    "word": "tray",
+    "tts_phrase": "ay. tray."
+  },
   {
     "category": "Suffixes & Endings",
     "vowel_text": "ous",
@@ -869,7 +935,12 @@
     "word": "enormous",
     "tts_phrase": "us. enormous."
   },
-
+  {
+    "category": "Suffixes & Endings",
+    "vowel_text": "ous",
+    "word": "joyous",
+    "tts_phrase": "us. joyous."
+  },
   {
     "category": "Suffixes & Endings",
     "vowel_text": "ed",
@@ -906,7 +977,6 @@
     "word": "planted",
     "tts_phrase": "id. planted."
   },
-
   {
     "category": "Suffixes & Endings",
     "vowel_text": "ed",
@@ -949,7 +1019,6 @@
     "word": "kissed",
     "tts_phrase": "t. kissed."
   },
-
   {
     "category": "Suffixes & Endings",
     "vowel_text": "ed",
@@ -992,7 +1061,12 @@
     "word": "filled",
     "tts_phrase": "d. filled."
   },
-
+  {
+    "category": "Suffixes & Endings",
+    "vowel_text": "ed",
+    "word": "called",
+    "tts_phrase": "d. called."
+  },
   {
     "category": "Vowel Teams & Diphthongs",
     "vowel_text": "aw",
@@ -1029,7 +1103,12 @@
     "word": "claw",
     "tts_phrase": "aw. claw."
   },
-
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "vowel_text": "aw",
+    "word": "straw",
+    "tts_phrase": "aw. straw."
+  },
   {
     "category": "Vowel Teams & Diphthongs",
     "vowel_text": "au",
@@ -1066,7 +1145,12 @@
     "word": "author",
     "tts_phrase": "aw. author."
   },
-
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "vowel_text": "au",
+    "word": "sauce",
+    "tts_phrase": "aw. sauce."
+  },
   {
     "category": "Vowel Teams & Diphthongs",
     "vowel_text": "oo",
@@ -1103,7 +1187,12 @@
     "word": "pool",
     "tts_phrase": "ooh. pool."
   },
-
+  {
+    "category": "Vowel Teams & Diphthongs",
+    "vowel_text": "oo",
+    "word": "room",
+    "tts_phrase": "ooh. room."
+  },
   {
     "category": "Vowel Teams & Diphthongs",
     "vowel_text": "oo",

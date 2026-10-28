@@ -209,12 +209,12 @@ const styles = {
     marginBottom: '2rem',
   },
   vowel: {
-    fontSize: '5rem',
+    fontSize: '3rem',
     color: '#E94E77',
     margin: '0 0 1rem 0',
   },
   word: {
-    fontSize: '3rem',
+    fontSize: '5rem',
     color: '#333333',
     margin: '0 0 2rem 0',
   },
