@@ -1,12 +1,14 @@
 {
   "name": "phonics-app",
   "version": "0.1.0",
+  "homepage": "/phonics",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.2",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.3",
     "@testing-library/user-event": "^13.5.0",
+    "pocketbase": "^0.28.1",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-scripts": "5.0.1",
