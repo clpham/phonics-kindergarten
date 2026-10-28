@@ -6,10 +6,15 @@ import PocketBase from 'pocketbase';
 const pb = new PocketBase("https://eq14x.tail2c693e.ts.net/pocketbase");
 
 const PhonicsFlashcards = () => {
+  const [originalCards, setOriginalCards] = useState([]);
   const [cards, setCards] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+  
+  // New states for the requested features
+  const [isShuffled, setIsShuffled] = useState(false);
+  const [searchVowel, setSearchVowel] = useState('');
 
   useEffect(() => {
     const fetchCards = async () => {
@@ -18,6 +23,7 @@ const PhonicsFlashcards = () => {
           sort: 'category,vowel_text',
         });
         
+        setOriginalCards(records);
         setCards(records);
         setIsLoading(false);
       } catch (err) {
@@ -71,6 +77,38 @@ const PhonicsFlashcards = () => {
     setCurrentIndex((prev) => (prev - 1 + cards.length) % cards.length);
   };
 
+  // Shuffle implementation using Fisher-Yates
+  const toggleShuffle = () => {
+    if (isShuffled) {
+      setCards([...originalCards]);
+      setIsShuffled(false);
+    } else {
+      const shuffled = [...originalCards];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      setCards(shuffled);
+      setIsShuffled(true);
+    }
+    setCurrentIndex(0); // Reset to the first card when deck order changes
+  };
+
+  // Fast forward feature
+  const jumpToVowel = () => {
+    if (!searchVowel.trim()) return;
+    
+    const target = searchVowel.trim().toLowerCase();
+    const index = cards.findIndex(c => c.vowel_text.toLowerCase() === target);
+    
+    if (index !== -1) {
+      setCurrentIndex(index);
+    } else {
+      alert(`Could not find the vowel pattern: "${searchVowel}"`);
+    }
+    setSearchVowel(''); // Clear input after search
+  };
+
   if (isLoading) return <div style={styles.message}>Loading flashcards...</div>;
   if (error) return <div style={{...styles.message, color: 'red'}}>{error}</div>;
   if (cards.length === 0) return <div style={styles.message}>No flashcards found.</div>;
@@ -80,6 +118,25 @@ const PhonicsFlashcards = () => {
   return (
     <div style={styles.container}>
       <h1 style={styles.header}>Flash Card</h1>
+      
+      {/* New Toolbar for Shuffle and Jump Features */}
+      <div style={styles.toolbar}>
+        <button style={styles.toolButton} onClick={toggleShuffle}>
+          {isShuffled ? 'Sort Alphabetically' : 'Shuffle Cards'}
+        </button>
+        
+        <div style={styles.searchContainer}>
+          <input 
+            style={styles.searchInput}
+            type="text" 
+            value={searchVowel} 
+            onChange={(e) => setSearchVowel(e.target.value)} 
+            onKeyDown={(e) => e.key === 'Enter' && jumpToVowel()}
+            placeholder="Jump to vowel (e.g. 'igh')"
+          />
+          <button style={styles.toolButton} onClick={jumpToVowel}>Jump</button>
+        </div>
+      </div>
       
       <div style={styles.card} onClick={() => playVoice(currentCard.tts_phrase)}>
         <h2 style={styles.vowel}>{currentCard.vowel_text}</h2>
@@ -107,8 +164,38 @@ const styles = {
   header: {
     fontSize: '3rem',
     color: '#333333',
-    marginBottom: '2rem',
+    marginBottom: '1rem',
     textAlign: 'center',
+  },
+  toolbar: {
+    display: 'flex',
+    gap: '2rem',
+    marginBottom: '2rem',
+    alignItems: 'center',
+    flexWrap: 'wrap',
+    justifyContent: 'center'
+  },
+  searchContainer: {
+    display: 'flex',
+    gap: '0.5rem',
+  },
+  searchInput: {
+    fontSize: '1.2rem',
+    padding: '10px',
+    borderRadius: '12px',
+    border: '2px solid #ccc',
+    width: '220px',
+    outline: 'none'
+  },
+  toolButton: {
+    fontSize: '1.2rem',
+    padding: '10px 20px',
+    borderRadius: '12px',
+    border: 'none',
+    backgroundColor: '#6C757D',
+    color: 'white',
+    cursor: 'pointer',
+    fontWeight: 'bold'
   },
   card: {
     backgroundColor: '#ffffff',
