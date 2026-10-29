@@ -1,7 +1,7 @@
 {
-  "name": "phonics-app",
+  "name": "phonics-kindergarten",
   "version": "0.1.0",
-  "homepage": "/phonics",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.2",
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "REACT_APP_WEBSITE_NAME=$npm_package_name react-scripts build",
+    "build": "PUBLIC_URL=\"/$npm_package_name\" REACT_APP_WEBSITE_NAME=$npm_package_name react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
