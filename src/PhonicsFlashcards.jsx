@@ -51,13 +51,14 @@ const PhonicsFlashcards = () => {
           u.pitch = 1.1;
         });
 
-        window.speechSynthesis.speak(soundUtterance);
+        //window.speechSynthesis.speak(soundUtterance);
         
-        soundUtterance.onend = () => {
-          setTimeout(() => {
-            window.speechSynthesis.speak(wordUtterance);
-          }, 300); //in ms
-        };
+        //soundUtterance.onend = () => {
+        //  setTimeout(() => {
+        //    window.speechSynthesis.speak(wordUtterance);
+        //  }, 300); //in ms
+        //};
+        window.speechSynthesis.speak(wordUtterance);
       } else {
         const utterance = new SpeechSynthesisUtterance(phrase);
         utterance.rate = 0.85; 
