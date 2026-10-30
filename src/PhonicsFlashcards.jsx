@@ -36,37 +36,47 @@ const PhonicsFlashcards = () => {
     fetchCards();
   }, []);
 
-  const playVoice = (phrase) => {
-    if ('speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-      
-      const sentences = phrase.split('.').map(s => s.trim()).filter(Boolean);
-      
-      if (sentences.length >= 2) {
-        const soundUtterance = new SpeechSynthesisUtterance(sentences[0]);
-        const wordUtterance = new SpeechSynthesisUtterance(sentences[1]);
-        
-        [soundUtterance, wordUtterance].forEach(u => {
-          u.rate = 0.85;
-          u.pitch = 1.1;
-        });
+  const playVoice = async (phrase) => {
+    // Keep your existing logic to isolate the target word
+    const sentences = phrase.split('.').map(s => s.trim()).filter(Boolean);
+    const textToSpeak = sentences.length >= 2 ? sentences[1] : phrase;
 
-        //window.speechSynthesis.speak(soundUtterance);
-        
-        //soundUtterance.onend = () => {
-        //  setTimeout(() => {
-        //    window.speechSynthesis.speak(wordUtterance);
-        //  }, 300); //in ms
-        //};
-        window.speechSynthesis.speak(wordUtterance);
-      } else {
-        const utterance = new SpeechSynthesisUtterance(phrase);
-        utterance.rate = 0.85; 
-        utterance.pitch = 1.1;
-        window.speechSynthesis.speak(utterance);
+    try {
+      const response = await fetch('https://xps15.tail2c693e.ts.net/kokoro-tts/v1/audio/speech', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          model: 'kokoro',
+          input: textToSpeak+'.',
+          voice: 'am_michael', // Default Kokoro voice; adjust as needed (e.g., af_bella, am_adam)
+          response_format: 'mp3',
+          speed: 1.00 // Must be >= 1.00
+        })
+      });
+
+      if (!response.ok) {
+        if (response.status === 422) {
+          const errorDetail = await response.json();
+          console.error("422 Validation Error details:", JSON.stringify(errorDetail, null, 2));
+        }
+
+        throw new Error(`Kokoro TTS server error: ${response.status}`);
       }
-    } else {
-      console.warn("Text-to-speech is not supported in this browser.");
+
+      // Convert the response stream to a blob and play it via HTML5 Audio
+      const audioBlob = await response.blob();
+      const audioUrl = URL.createObjectURL(audioBlob);
+      const audio = new Audio(audioUrl);
+
+      
+      // Prevent memory leaks by revoking the object URL once playback finishes
+      audio.onended = () => URL.revokeObjectURL(audioUrl);
+      //const audio = new Audio('https://eq14x.tail2c693e.ts.net/kokoro-tts/api/tts?text=' + encodeURIComponent(textToSpeak) + '&voice=af_heart&speed=0.85'); 
+      audio.play();
+    } catch (error) {
+      console.error("Failed to fetch audio from Kokoro:", error);
     }
   };
 
@@ -215,7 +225,7 @@ const styles = {
     margin: '0 0 1rem 0',
   },
   word: {
-    fontSize: '5rem',
+    fontSize: '4rem',
     color: '#333333',
     margin: '0 0 2rem 0',
   },
