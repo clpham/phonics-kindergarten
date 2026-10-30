@@ -50,7 +50,7 @@ const PhonicsFlashcards = () => {
         body: JSON.stringify({
           model: 'kokoro',
           input: textToSpeak+'.',
-          voice: 'am_michael', // Default Kokoro voice; adjust as needed (e.g., af_bella, am_adam)
+          voice: 'af_bella(2)+af_sarah(1)+am_michael(1)', // Default Kokoro voice; adjust as needed (e.g., af_bella, am_adam)
           response_format: 'mp3',
           speed: 1.00 // Must be >= 1.00
         })
