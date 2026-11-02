@@ -168,14 +168,26 @@ const renderBlendedWord = (word, targetVowel) => {
     // Look for an exact match in either the whole word or the vowel text
     const index = cards.findIndex(c => 
       c.word.toLowerCase() === target || 
-      c.vowel_text.toLowerCase() === target
+      (c.vowel_text && c.vowel_text.toLowerCase() === target)
     );
     
     if (index !== -1) {
       setCurrentIndex(index);
     } else {
-      alert(`Could not find the word or vowel: "${searchTerm}"`);
+      // Create a dynamic flashcard for the new word
+      const newCard = {
+        id: `dynamic-${Date.now()}`, 
+        word: target,
+        vowel_text: '⭐', // A fun indicator for Liam that this is a custom word
+        tts_phrase: `${target}. ${target}.` // Formatted to work with your existing TTS isolation logic
+      };
+      
+      // Append the new card to the end of the deck and jump to it
+      const updatedCards = [...cards, newCard];
+      setCards(updatedCards);
+      setCurrentIndex(updatedCards.length - 1);
     }
+    
     setSearchTerm(''); 
   };
 
