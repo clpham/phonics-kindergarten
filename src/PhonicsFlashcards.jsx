@@ -18,6 +18,8 @@ const PhonicsFlashcards = () => {
   const [isShuffled, setIsShuffled] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
 
+  const [isVerifying, setIsVerifying] = useState(false);
+
   useEffect(() => {
     const fetchCards = async () => {
       try {
@@ -37,6 +39,68 @@ const PhonicsFlashcards = () => {
 
     fetchCards();
   }, []);
+
+  const handleTapToHear = async () => {
+    if (!currentCard.id.toString().startsWith('dynamic-')) {
+      playVoice(currentCard.tts_phrase);
+      return;
+    }
+
+    setIsVerifying(true); // Start the loading indicator
+
+    // Step 1: Verify the spelling
+    try {
+      const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${currentCard.word}`);
+      
+      if (!response.ok) {
+        setIsVerifying(false); 
+        alert(`Oops! "${currentCard.word}" doesn't look like a real word. Try checking the spelling!`);
+        
+        // Clean up the rejected card so Liam doesn't get stuck
+        setCards(prevCards => prevCards.filter(c => c.id !== currentCard.id));
+        setCurrentIndex(prevIndex => prevIndex > 0 ? prevIndex - 1 : 0);
+        return; 
+      }
+    } catch (error) {
+      console.error("Dictionary API Error:", error);
+      setIsVerifying(false); 
+      alert("Network error while checking the spelling. Please try again.");
+      
+      // Clean up the card on network errors to prevent loops
+      setCards(prevCards => prevCards.filter(c => c.id !== currentCard.id));
+      setCurrentIndex(prevIndex => prevIndex > 0 ? prevIndex - 1 : 0);
+      return;
+    }
+
+    // Step 2: Spelling is correct! Stop the loading indicator and play the audio
+    setIsVerifying(false); 
+    playVoice(currentCard.tts_phrase);
+
+    // Step 3: Save to PocketBase (wrapped in a timeout to let the UI update first)
+    setTimeout(async () => {
+      const shouldSave = window.confirm(`Great job, "${currentCard.word}" is spelled correctly! Do you want to save it to Liam's flashcards?`);
+      
+      if (shouldSave) {
+        try {
+          const savedRecord = await pb.collection('phonics_flashcards').create({
+            word: currentCard.word,
+            vowel_text: currentCard.vowel_text, 
+            tts_phrase: currentCard.tts_phrase,
+            category: 'Custom' 
+          });
+
+          // Update the deck to make the dynamic card a permanent database record
+          setCards(prevCards => prevCards.map(c => c.id === currentCard.id ? savedRecord : c));
+          setOriginalCards(prevCards => [...prevCards, savedRecord]);
+          
+          alert("Word saved successfully!");
+        } catch (dbError) {
+          console.error("Database save error:", dbError);
+          alert("The spelling is correct, but there was an error saving it to PocketBase.");
+        }
+      }
+    }, 100); 
+  };
 
   const playVoice = async (phrase) => {
     // Keep your existing logic to isolate the target word
@@ -220,15 +284,14 @@ const renderBlendedWord = (word, targetVowel) => {
         </div>
       </div>
       
-      <div style={styles.card} onClick={() => playVoice(currentCard.tts_phrase)}>
+      <div style={styles.card} onClick={handleTapToHear}>
         <h2 style={styles.vowel}>{currentCard.vowel_text}</h2>
-        
-        {/* Replaced static word with animated blended word */}
         <p style={styles.word}>
           {renderBlendedWord(currentCard.word, currentCard.vowel_text)}
         </p>
-        
-        <button style={styles.audioButton}>🔊 Tap to Hear</button>
+        <button style={styles.audioButton}>
+          {isVerifying ? '⏳ Checking spelling...' : '🔊 Tap to Hear'}
+        </button>
       </div>
       
       <div style={styles.controls}>
@@ -239,6 +302,7 @@ const renderBlendedWord = (word, targetVowel) => {
     </div>
   );
 };
+
 
 const styles = {
   container: {
