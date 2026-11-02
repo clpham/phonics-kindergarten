@@ -93,27 +93,42 @@ const PhonicsFlashcards = () => {
     }
   };
 
-  const renderBlendedWord = (word, vowel) => {
-    if (!word || !vowel) return word;
-    
-    // Split the word, keeping the vowel intact as a separate array item
-    const parts = word.split(new RegExp(`(${vowel})`, 'i'));
-    
-    return parts.map((part, i) => {
-      const isVowel = part.toLowerCase() === vowel.toLowerCase();
+const renderBlendedWord = (word, targetVowel) => {
+    if (!word) return null;
+
+    // A JavaScript regex heuristic to chunk English words into syllables
+    const syllables = word.match(/[^aeiouy]*[aeiouy]+(?:[^aeiouy]*$|[^aeiouy](?=[^aeiouy]))?/gi) || [word];
+
+    return syllables.map((syllable, index) => {
+      // Check if this specific syllable contains Liam's target irregular vowel
+      let renderedSyllable = syllable;
+      if (targetVowel && syllable.toLowerCase().includes(targetVowel.toLowerCase())) {
+        const parts = syllable.split(new RegExp(`(${targetVowel})`, 'i'));
+        renderedSyllable = parts.map((part, i) => (
+          <span 
+            key={i} 
+            style={{ color: part.toLowerCase() === targetVowel.toLowerCase() ? '#E94E77' : 'inherit' }}
+          >
+            {part}
+          </span>
+        ));
+      }
+
       return (
         <span
-          key={i}
+          key={index}
           style={{
             display: 'inline-block',
-            color: isVowel ? '#E94E77' : '#333333',
-            // If blending, pop the vowel up and pull the letters apart
-            transform: isBlending && isVowel ? 'scale(1.4) translateY(-10px)' : 'scale(1)',
-            margin: isBlending ? '0 12px' : '0',
-            transition: 'all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55)', // Bouncy physics
+            color: '#333333', 
+            // Bounces and spreads the syllables apart, rather than just the vowel
+            transform: isBlending ? 'scale(1.2) translateY(-8px)' : 'scale(1)',
+            margin: isBlending ? '0 15px' : '0',
+            transition: 'all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55)',
+            borderBottom: isBlending ? '4px solid #4A90E2' : '4px solid transparent', // Optional: underlines the syllable chunk
+            paddingBottom: '4px'
           }}
         >
-          {part}
+          {renderedSyllable}
         </span>
       );
     });
