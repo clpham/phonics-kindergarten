@@ -16,7 +16,7 @@ const PhonicsFlashcards = () => {
   
   // New states for the requested features
   const [isShuffled, setIsShuffled] = useState(false);
-  const [searchVowel, setSearchVowel] = useState('');
+  const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
     const fetchCards = async () => {
@@ -160,18 +160,23 @@ const renderBlendedWord = (word, targetVowel) => {
   };
 
   // Fast forward feature
-  const jumpToVowel = () => {
-    if (!searchVowel.trim()) return;
+  const jumpToItem = () => {
+    if (!searchTerm.trim()) return;
     
-    const target = searchVowel.trim().toLowerCase();
-    const index = cards.findIndex(c => c.vowel_text.toLowerCase() === target);
+    const target = searchTerm.trim().toLowerCase();
+    
+    // Look for an exact match in either the whole word or the vowel text
+    const index = cards.findIndex(c => 
+      c.word.toLowerCase() === target || 
+      c.vowel_text.toLowerCase() === target
+    );
     
     if (index !== -1) {
       setCurrentIndex(index);
     } else {
-      alert(`Could not find the vowel pattern: "${searchVowel}"`);
+      alert(`Could not find the word or vowel: "${searchTerm}"`);
     }
-    setSearchVowel(''); // Clear input after search
+    setSearchTerm(''); 
   };
 
   if (isLoading) return <div style={styles.message}>Loading flashcards...</div>;
@@ -194,12 +199,12 @@ const renderBlendedWord = (word, targetVowel) => {
           <input 
             style={styles.searchInput}
             type="text" 
-            value={searchVowel} 
-            onChange={(e) => setSearchVowel(e.target.value)} 
-            onKeyDown={(e) => e.key === 'Enter' && jumpToVowel()}
-            placeholder="Jump to vowel (e.g. 'igh')"
+            value={searchTerm} 
+            onChange={(e) => setSearchTerm(e.target.value)} 
+            onKeyDown={(e) => e.key === 'Enter' && jumpToItem()}
+            placeholder="Jump to word or vowel..."
           />
-          <button style={styles.toolButton} onClick={jumpToVowel}>Jump</button>
+          <button style={styles.toolButton} onClick={jumpToItem}>Jump</button>
         </div>
       </div>
       
