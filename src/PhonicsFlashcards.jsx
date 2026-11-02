@@ -42,7 +42,7 @@ const PhonicsFlashcards = () => {
     const textToSpeak = sentences.length >= 2 ? sentences[1] : phrase;
 
     try {
-      const response = await fetch('https://xps15.tail2c693e.ts.net/kokoro-tts/v1/audio/speech', {
+      const response = await fetch('https://xps15.tail2c693e.ts.net:8443/v1/audio/speech', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
