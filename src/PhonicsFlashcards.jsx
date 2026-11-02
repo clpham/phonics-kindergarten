@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PocketBase from 'pocketbase';
 
+
 // Initialize the PocketBase client targeting your backend IP
 //const pb = new PocketBase('http://192.168.10.10:8090');
 const pb = new PocketBase("https://eq14x.tail2c693e.ts.net/pocketbase");
@@ -11,6 +12,7 @@ const PhonicsFlashcards = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [isBlending, setIsBlending] = useState(false);
   
   // New states for the requested features
   const [isShuffled, setIsShuffled] = useState(false);
@@ -69,6 +71,17 @@ const PhonicsFlashcards = () => {
       const audioBlob = await response.blob();
       const audioUrl = URL.createObjectURL(audioBlob);
       const audio = new Audio(audioUrl);
+      
+      // Trigger the visual pull-apart
+      setIsBlending(true);
+      audio.play();
+
+      // Snap the word back together after a short delay (simulating blending)
+      setTimeout(() => {
+        setIsBlending(false);
+      }, 800); 
+
+      audio.onended = () => URL.revokeObjectURL(audioUrl);
 
       
       // Prevent memory leaks by revoking the object URL once playback finishes
@@ -78,6 +91,32 @@ const PhonicsFlashcards = () => {
     } catch (error) {
       console.error("Failed to fetch audio from Kokoro:", error);
     }
+  };
+
+  const renderBlendedWord = (word, vowel) => {
+    if (!word || !vowel) return word;
+    
+    // Split the word, keeping the vowel intact as a separate array item
+    const parts = word.split(new RegExp(`(${vowel})`, 'i'));
+    
+    return parts.map((part, i) => {
+      const isVowel = part.toLowerCase() === vowel.toLowerCase();
+      return (
+        <span
+          key={i}
+          style={{
+            display: 'inline-block',
+            color: isVowel ? '#E94E77' : '#333333',
+            // If blending, pop the vowel up and pull the letters apart
+            transform: isBlending && isVowel ? 'scale(1.4) translateY(-10px)' : 'scale(1)',
+            margin: isBlending ? '0 12px' : '0',
+            transition: 'all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55)', // Bouncy physics
+          }}
+        >
+          {part}
+        </span>
+      );
+    });
   };
 
   const nextCard = () => {
@@ -151,7 +190,12 @@ const PhonicsFlashcards = () => {
       
       <div style={styles.card} onClick={() => playVoice(currentCard.tts_phrase)}>
         <h2 style={styles.vowel}>{currentCard.vowel_text}</h2>
-        <p style={styles.word}>{currentCard.word}</p>
+        
+        {/* Replaced static word with animated blended word */}
+        <p style={styles.word}>
+          {renderBlendedWord(currentCard.word, currentCard.vowel_text)}
+        </p>
+        
         <button style={styles.audioButton}>🔊 Tap to Hear</button>
       </div>
       
@@ -214,7 +258,9 @@ const styles = {
     borderRadius: '24px',
     padding: '4rem 2rem',
     textAlign: 'center',
-    width: '300px',
+    width: '100%',
+    maxWidth: '800px', 
+    boxSizing: 'border-box', 
     boxShadow: '0 8px 16px rgba(0,0,0,0.1)',
     cursor: 'pointer',
     marginBottom: '2rem',
