@@ -41,12 +41,16 @@ const PhonicsFlashcards = () => {
   }, []);
 
   const handleTapToHear = async () => {
-    if (!currentCard.id.toString().startsWith('dynamic-')) {
+    // Prevent multiple triggers if the check is already running
+    if (isVerifying) return; 
+
+    // If it's a database card, OR a dynamic card that was already checked and prompted
+    if (!currentCard.id.toString().startsWith('dynamic-') || currentCard.prompted) {
       playVoice(currentCard.tts_phrase);
       return;
     }
 
-    setIsVerifying(true); // Start the loading indicator
+    setIsVerifying(true); 
 
     // Step 1: Verify the spelling
     try {
@@ -56,7 +60,6 @@ const PhonicsFlashcards = () => {
         setIsVerifying(false); 
         alert(`Oops! "${currentCard.word}" doesn't look like a real word. Try checking the spelling!`);
         
-        // Clean up the rejected card so Liam doesn't get stuck
         setCards(prevCards => prevCards.filter(c => c.id !== currentCard.id));
         setCurrentIndex(prevIndex => prevIndex > 0 ? prevIndex - 1 : 0);
         return; 
@@ -66,7 +69,6 @@ const PhonicsFlashcards = () => {
       setIsVerifying(false); 
       alert("Network error while checking the spelling. Please try again.");
       
-      // Clean up the card on network errors to prevent loops
       setCards(prevCards => prevCards.filter(c => c.id !== currentCard.id));
       setCurrentIndex(prevIndex => prevIndex > 0 ? prevIndex - 1 : 0);
       return;
@@ -89,7 +91,6 @@ const PhonicsFlashcards = () => {
             category: 'Custom' 
           });
 
-          // Update the deck to make the dynamic card a permanent database record
           setCards(prevCards => prevCards.map(c => c.id === currentCard.id ? savedRecord : c));
           setOriginalCards(prevCards => [...prevCards, savedRecord]);
           
@@ -97,7 +98,13 @@ const PhonicsFlashcards = () => {
         } catch (dbError) {
           console.error("Database save error:", dbError);
           alert("The spelling is correct, but there was an error saving it to PocketBase.");
+          
+          // Mark as prompted even if the save fails so it doesn't loop
+          setCards(prevCards => prevCards.map(c => c.id === currentCard.id ? { ...c, prompted: true } : c));
         }
+      } else {
+        // User clicked cancel. Mark the card so it only plays audio on future taps.
+        setCards(prevCards => prevCards.map(c => c.id === currentCard.id ? { ...c, prompted: true } : c));
       }
     }, 100); 
   };
