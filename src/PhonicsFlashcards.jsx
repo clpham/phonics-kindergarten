@@ -54,7 +54,8 @@ const PhonicsFlashcards = () => {
 
     // Step 1: Verify the spelling
     try {
-      const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${currentCard.word}`);
+      //const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${currentCard.word}`);
+      const response = await fetch(`https://eq14x.tail2c693e.ts.net/dict/api/${currentCard.word}`);
       
       if (!response.ok) {
         setIsVerifying(false); 
